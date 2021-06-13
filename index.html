@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ICONS FROM FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/d24437557d.js" crossorigin="anonymous"></script>
+    <!-- CSS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./img/pollito.png" type="image/x-icon">
+    <title>Poderío UI</title>
+</head>
+
+<body>
+    <header>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-expand-sm navbar-light bg-light pt-5 pb-3">
+            <div class="container-fluid">
+                <!-- BRANDNAME -->
+                <a class="navbar-brand mx-5 fs-2 fw-bold text-primary" href="#">Poderío UI</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <!-- LISTA DESORDENADA -->
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home <i
+                                    class="fas fa-caret-right"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us <i class="fas fa-caret-right"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Prices <i class="fas fa-caret-right"></i></a>
+                        </li>
+                    </ul>
+                    <!-- BOTÓN-COMPRAR -->
+                    <form class="d-flex me-5">
+                        <button class="btn btn-primary" type="submit">Buy our services <i
+                                class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- CONTENDOR PRINCIPAL -->
+        <div class="container">
+            <!-- PRIMERA FILA -->
+            <div class="row mb-5">
+                <!-- COLUMNA CON TEXTO -->
+                <div class="col-sm-4 col-md-6 col-lg-6 text-start pt-4 mt-4">
+                    <h1>WE MAKE YOUR WEBSITE A CREATIVE PLACE</h1>
+                    <p class="fs-5 text-secondary">We bring your ideas to life! Accessible prices and top-quality work
+                        team just for you</p>
+                    <!-- FILA CONTENEDORA DE BOTONES -->
+                    <div class="d-grid gap-2 d-md-block">
+                        <button class="btn btn-primary" type="button">Portfolio</button>
+                        <button class="btn btn-secondary" type="button">Clients</button>
+                    </div>
+                </div>
+                <!-- COLUMNA CON IMG -->
+                <div class="col-sm-8 col-md-6 col-lg-6"><img src="./img/team.jpg" class="img-fluid" alt=""></div>
+            </div>
+            <!-- SEGUNDA FILA -->
+            <div class="row row-cols-1 row-cols-lg-3 g-4 pb-5">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./img/1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Recommendations</h5>
+                      <p class="card-text">Cumque accusamus vel totam adipisci labore!</p>
+                      <a href="#" class="btn btn-primary">Our work</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./img/2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Let's set up a meeting</h5>
+                      <p class="card-text">Laboriosam dolores expedita, eaque nobis nam ipsam dicta.</p>
+                      <a href="#" class="btn btn-primary">Make a call</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./img/3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">The best team on board!</h5>
+                      <p class="card-text">Sequi ipsum qui incidunt animi unde tempora possimus ut et?</p>
+                      <a href="#" class="btn btn-primary">Meet Us</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </main>
+    <footer class="footer mt-auto py-3 bg-dark">
+        <div class="container text-center text-light pt-3">
+            <p>Made with love<span>&#128150;</span> - Poderío 2021
+            </p>
+        </div>
+    </footer>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
